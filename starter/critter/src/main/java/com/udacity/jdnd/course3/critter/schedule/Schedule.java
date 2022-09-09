@@ -81,14 +81,5 @@ public class Schedule {
         this.activities = activities;
     }
 
-    @Override
-    public String toString() {
-        return "Schedule{" +
-                "id=" + id +
-                ", employees=" + employeeSchedules +
-                ", pets=" + petSchedules +
-                ", date=" + date +
-                ", activities=" + activities +
-                '}';
-    }
+
 }

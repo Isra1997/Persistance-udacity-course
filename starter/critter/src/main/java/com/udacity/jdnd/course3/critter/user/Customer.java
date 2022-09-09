@@ -1,5 +1,7 @@
 package com.udacity.jdnd.course3.critter.user;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonView;
 import com.udacity.jdnd.course3.critter.pet.Pet;
 
 import javax.persistence.*;
@@ -10,6 +12,8 @@ import java.util.List;
 @Entity
 public class Customer extends Person {
     String phoneNumber;
+
+    @JsonIgnore
     @OneToMany(mappedBy = "customer")
     List<Pet> pets;
 

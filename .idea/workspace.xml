@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6ad8f2-a710-44f5-8cc9-b9d290265998" name="Changes" comment="" />
+    <list default="true" id="6d6ad8f2-a710-44f5-8cc9-b9d290265998" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/pet/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/pet/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/pet/PetDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/pet/PetDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/schedule/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/schedule/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/schedule/ScheduleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/schedule/ScheduleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/schedule/ScheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/schedule/ScheduleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/user/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/user/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/user/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/user/CustomerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/user/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/user/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/user/EmployeeRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/src/main/java/com/udacity/jdnd/course3/critter/user/EmployeeRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/src/main/resources/Udacity.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/src/main/resources/Udacity.postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/critter/target/classes/com/udacity/jdnd/course3/critter/user/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/critter/target/classes/com/udacity/jdnd/course3/critter/user/EmployeeService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -130,8 +143,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CritterFunctionalTest" />
         <item itemvalue="Application.CritterApplication" />
+        <item itemvalue="JUnit.CritterFunctionalTest" />
         <item itemvalue="JUnit.CritterFunctionalTest.testFindPetsByOwner" />
         <item itemvalue="JUnit.CritterFunctionalTest.testAddPetsToCustomer" />
         <item itemvalue="JUnit.CritterFunctionalTest.testFindScheduleByEntities" />

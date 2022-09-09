@@ -16,7 +16,7 @@ public class PetDTO {
     private long ownerId;
     private LocalDate birthDate;
     private String notes;
-    private Customer customer;
+
 
     public PetDTO() {
     }
@@ -26,17 +26,12 @@ public class PetDTO {
         this.name = pet.getName();
         this.birthDate = pet.getBirthDate();
         this.type = pet.getType();
-        this.customer = pet.getCustomer();
-        this.ownerId = pet.getCustomer().getId();
+        if(pet.getCustomer() != null) {
+            this.ownerId = pet.getCustomer().getId();
+        }
+
     }
 
-    public Customer getCustomer() {
-        return customer;
-    }
-
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
-    }
 
     public PetType getType() {
         return type;

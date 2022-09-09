@@ -1,6 +1,7 @@
 package com.udacity.jdnd.course3.critter.user;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.udacity.jdnd.course3.critter.schedule.Schedule;
 
 import javax.persistence.*;
@@ -19,6 +20,7 @@ public class Employee extends Person {
     @Enumerated(EnumType.STRING)
     Set<DayOfWeek> daysAvailable;
 
+
     @ManyToMany(mappedBy = "employeeSchedules")
     List<Schedule> schedule;
 
@@ -33,6 +35,7 @@ public class Employee extends Person {
         return schedule;
     }
 
+    @JsonIgnore
     public void setSchedule(List<Schedule> schedule) {
         this.schedule = schedule;
     }
@@ -56,13 +59,4 @@ public class Employee extends Person {
         this.daysAvailable = daysAvailable;
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "skills=" + skills +
-                ", daysAvailable=" + daysAvailable +
-                ", id=" + id +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }

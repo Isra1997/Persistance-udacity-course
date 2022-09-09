@@ -67,14 +67,4 @@ public class CustomerDTO {
         this.petIds = petIds;
     }
 
-    @Override
-    public String toString() {
-        return "CustomerDTO{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", notes='" + notes + '\'' +
-                ", petIds=" + petIds +
-                '}';
-    }
 }

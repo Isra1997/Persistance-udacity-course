@@ -1,5 +1,6 @@
 package com.udacity.jdnd.course3.critter.pet;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.udacity.jdnd.course3.critter.schedule.Schedule;
 import com.udacity.jdnd.course3.critter.user.Customer;
 
@@ -18,8 +19,10 @@ public class Pet  {
     PetType type;
     String notes;
     LocalDate birthDate;
+    @JsonIgnore
     @ManyToOne(targetEntity = Customer.class, fetch = FetchType.LAZY)
     Customer customer;
+
 
     @ManyToMany(mappedBy = "petSchedules")
     List<Schedule> schedule;
@@ -95,16 +98,4 @@ public class Pet  {
         this.birthDate = birthDate;
     }
 
-    @Override
-    public String toString() {
-        return "Pet{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", type=" + type +
-                ", notes='" + notes + '\'' +
-                ", birthDate=" + birthDate +
-                ", customer=" + customer +
-                ", schedule=" + schedule +
-                '}';
-    }
 }

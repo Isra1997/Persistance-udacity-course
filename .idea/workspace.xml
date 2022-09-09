@@ -4,47 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6ad8f2-a710-44f5-8cc9-b9d290265998" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../course3.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Controller/DeliveryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Controller/PlantController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Course3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/DAO/CandyDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/DAO/CandyDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/DAO/CandyData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/DAO/PersonWithOneOutfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/DTO/PlantDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/DTO/RecipientAndPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Entity/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Entity/Flower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Entity/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Entity/Shrub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Services/DeliveryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Services/PlantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/Views/Public.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/config/dbConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/humans/Humanoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/humans/Mannequin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/humans/MannequinShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/humans/Outfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/humans/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/repositories/DeliverRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/repositories/DeliveryRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/java/com/example/udacit/jdnd/course3/repositories/PlantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/test/java/com/example/udacit/jdnd/course3/Course3ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/test/java/com/example/udacit/jdnd/course3/Services/PlantServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../course3/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../course3/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../course3/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../course3/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../course3/src/main/resources/schema.sql" afterDir="false" />
-    </list>
+    <list default="true" id="6d6ad8f2-a710-44f5-8cc9-b9d290265998" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

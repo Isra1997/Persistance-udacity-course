@@ -7,10 +7,12 @@ import org.assertj.core.util.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
+@Transactional
 public class ScheduleService {
     @Autowired
     ScheduleRepository scheduleRepository;
